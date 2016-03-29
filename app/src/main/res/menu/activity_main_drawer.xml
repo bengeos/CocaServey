@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sampled Entries" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Registered Shops" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="Upload Data" />
+    </group>
+    <item android:title="Location">
+        <menu>
+            <item
+                android:id="@+id/nav_my_gps"
+                android:icon="@drawable/ic_gps_fixed_black_24dp"
+                android:title="Ethiopia,Addis Ababa, Gurdshola" />
+            <item
+                android:id="@+id/nav_gps_shops"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Get Shops Around Me" />
+
+        </menu>
+    </item>
+    <item android:title="More Option">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_fab_star"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
